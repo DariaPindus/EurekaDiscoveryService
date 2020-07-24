@@ -1,0 +1,8 @@
+Tag an image (-t)
+$ docker build -t vieux/apache:2.0 .
+This will build like the previous example, but it will then tag the resulting image.
+The repository name will be vieux/apache and the tag will be 2.0. Read more about valid tags.
+
+docker build -t politscan/eureka-server .
+docker run -p 8761:8761 -t politscan/eureka-server
+
